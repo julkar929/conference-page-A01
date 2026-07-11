@@ -77,3 +77,66 @@ nav ul li a:hover {
     padding: 1.1rem 3.1rem;
     font-size: 1.2rem;
 }
+
+/* Speakers Section */
+.speakers {
+    padding: 5.5rem 4rem;
+    background-color: #f8fafc;
+}
+
+.speakers-heading {
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.speaker-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+    gap: 2rem;
+    max-width: 900px;
+    margin: 3rem auto;
+}
+
+.speaker-card {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.speaker-card:hover {
+    transform: translateY(-5px);
+}
+
+.speaker-card img {
+    width: 100%;
+    aspect-ratio: 1 / 0.6;
+    object-fit: cover;
+}
+
+.speaker-info {
+    padding: 1.5rem;
+}
+
+.speaker-info .tag {
+    display: inline-block;
+    color: #1d4fd8c0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.speaker-info h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.speaker-info p {
+    font-size: 0.95rem;
+    color: #475569;
+    margin: 0;
+}
