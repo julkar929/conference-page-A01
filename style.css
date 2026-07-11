@@ -275,3 +275,26 @@ hr {
     color: #ffffff;
     border-color: #1d4ed8;
 }
+
+/* footer part */
+
+footer {
+    background-color: #0D1B2A;
+    padding: 2rem 4rem;
+    color: #ffffff;
+}
+
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a:hover {
+    transform: translateY(-6px);
+}
