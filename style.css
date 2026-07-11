@@ -4,7 +4,7 @@
 a{text-decoration: none;}
 .btn{ background-color: #1d4ed8; color: white; border-radius: 5px; cursor: pointer; border: 2px solid #1d4ed8; outline: none;}
 .btn:hover { background-color: #007bff;}
-body {font-family: 'Inter', sans-serif; background-color: #f8fafc;}
+body {font-family: 'Inter', sans-serif; background-color: #f8f9fb;}
 
 /* navbar section */
 .navbar{
@@ -103,6 +103,7 @@ nav ul li a:hover {
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease;
+    background-color: #ffffff;
 }
 
 .speaker-card:hover {
@@ -276,6 +277,220 @@ hr {
     border-color: #1d4ed8;
 }
 
+/* AI section Start*/
+/* Schedule section */
+.schedule {
+    padding: 5.5rem 4rem;
+    scroll-margin-top: 5rem;
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.8rem;
+    max-width: 65.625rem;
+    margin: 3rem auto 0;
+}
+
+.day-card {
+    background: #ffffff;
+    border-radius: 1rem;
+    padding: 1.8rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.day-card:hover {
+    transform: translateY(-6px);
+}
+
+.day-label {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1d4ed8;
+    margin-bottom: 0.6rem;
+}
+
+.day-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #0d1b2a;
+}
+
+.day-list {
+    list-style: none;
+}
+
+.day-list li {
+    padding: 0.5rem 0;
+    border-top: 1px solid #e2e8f0;
+    color: #334155;
+    font-size: 0.92rem;
+}
+
+.day-list li:first-child {
+    border-top: none;
+}
+
+.day-list .time {
+    display: inline-block;
+    width: 3.5rem;
+    font-weight: 600;
+    color: #0d1b2a;
+}
+
+/* Track section */
+.track {
+    padding: 5.5rem 4rem;
+    scroll-margin-top: 5rem;
+}
+
+.track-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+    max-width: 75rem;
+    margin: 3rem auto 0;
+}
+
+.track-card {
+    background: #ffffff;
+    border-radius: 1rem;
+    padding: 1.8rem 1.4rem;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.track-card:hover {
+    transform: translateY(-5px);
+}
+
+.track-card i {
+    font-size: 1.6rem;
+    color: #1d4ed8;
+    margin-bottom: 0.9rem;
+}
+
+.track-card h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.5rem;
+    color: #0d1b2a;
+}
+
+.track-card p {
+    font-size: 0.85rem;
+    color: #64748b;
+}
+
+/* Venue section */
+.venue {
+    padding: 5.5rem 4rem;
+    scroll-margin-top: 5rem;
+}
+
+.venue-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    max-width: 65.625rem;
+    margin: 3rem auto 0;
+    align-items: center;
+}
+
+.venue-info {
+    border-radius: 1rem;
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+.venue-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #0d1b2a;
+}
+
+.venue-info p {
+    font-size: 0.98rem;
+    color: #475569;
+    margin-bottom: 0.8rem;
+}
+
+.venue-info p i {
+    color: #1d4ed8;
+    width: 1.4rem;
+}
+
+.venue-info .btn {
+    margin-top: 1rem;
+    padding: 0.85rem 1.8rem;
+    display: inline-block;
+}
+
+.venue-map {
+    border-radius: 1rem;
+}
+
+.venue-map img {
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Register section */
+.register {
+    padding: 5.5rem 4rem;
+    scroll-margin-top: 5rem;
+}
+
+form{
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    max-width: 50rem;
+    padding: 2rem;
+}
+
+.register-form {
+    max-width: 40rem;
+    margin: 3rem auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.1rem;
+}
+
+.register-form input,
+.register-form select {
+    padding: 0.85rem 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-size: 0.95rem;
+    color: #334155;
+    background: #f8fafc;
+    outline: none;
+}
+
+.register-form input:focus,
+.register-form select:focus {
+    border-color: #1d4ed8;
+}
+
+.register-form .btn {
+    padding: 0.95rem;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 0.4rem;
+}
+
 /* footer part */
 
 footer {
@@ -296,5 +511,6 @@ footer {
 }
 
 .social-links a:hover {
+    transition: transform 0.3s ease;
     transform: translateY(-6px);
 }

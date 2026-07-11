@@ -16,10 +16,10 @@
       <nav>
         <ul>
           <li><a href="#speakers">Speakers</a></li>
-          <li><a href="">Schedule</a></li>
-          <li><a href="">Track</a></li>
-          <li><a href="">Venue</a></li>
-          <li><a href="">Vlog</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#track">Track</a></li>
+          <li><a href="#venue">Venue</a></li>
+          <li><a href="#vlog">Vlog</a></li>
         </ul>
       </nav>
       <!-- register button part -->
@@ -163,6 +163,123 @@
         </div>
       </div>
     </section>
+
+    <!-- Heare need to missing section AI Done By Prompt-->
+
+    <!-- Schedule part -->
+    <section class="schedule" id="schedule">
+      <h2 class="section-heading">Event Schedule</h2>
+      <p class="section-subtitle">Three days packed with talks, workshops, and networking.</p>
+      <div class="schedule-grid">
+        <div class="day-card">
+          <span class="day-label">Day 01 · Oct 12</span>
+          <h3>Foundations & Keynotes</h3>
+          <ul class="day-list">
+            <li><span class="time">09:00</span> Registration & Coffee</li>
+            <li><span class="time">10:00</span> Opening Keynote</li>
+            <li><span class="time">13:00</span> Track Sessions Begin</li>
+            <li><span class="time">18:00</span> Welcome Mixer</li>
+          </ul>
+        </div>
+        <div class="day-card">
+          <span class="day-label">Day 02 · Oct 13</span>
+          <h3>Deep Dives & Workshops</h3>
+          <ul class="day-list">
+            <li><span class="time">09:30</span> Workshop Block A</li>
+            <li><span class="time">12:00</span> Networking Lunch</li>
+            <li><span class="time">14:00</span> Workshop Block B</li>
+            <li><span class="time">19:00</span> VIP Networking Dinner</li>
+          </ul>
+        </div>
+        <div class="day-card">
+          <span class="day-label">Day 03 · Oct 14</span>
+          <h3>Build Day & Closing</h3>
+          <ul class="day-list">
+            <li><span class="time">10:00</span> Live Build Sessions</li>
+            <li><span class="time">15:00</span> Lightning Talks</li>
+            <li><span class="time">17:00</span> Closing Keynote</li>
+            <li><span class="time">18:30</span> Farewell Reception</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+     <!-- Track part -->
+    <section class="track" id="track">
+      <h2 class="section-heading">Choose Your Track</h2>
+      <p class="section-subtitle">Five focused tracks curated for every kind of builder.</p>
+      <div class="track-grid">
+        <div class="track-card">
+          <i class="fa-solid fa-robot"></i>
+          <h3>AI / ML</h3>
+          <p>Model training, inference at scale, and agentic systems.</p>
+        </div>
+        <div class="track-card">
+          <i class="fa-solid fa-display"></i>
+          <h3>Frontend</h3>
+          <p>Modern UI engineering, performance, and design systems.</p>
+        </div>
+        <div class="track-card">
+          <i class="fa-solid fa-server"></i>
+          <h3>Backend</h3>
+          <p>Distributed systems, APIs, and data infrastructure.</p>
+        </div>
+        <div class="track-card">
+          <i class="fa-solid fa-shield-halved"></i>
+          <h3>Security</h3>
+          <p>Threat modeling, secure architecture, and applied cryptography.</p>
+        </div>
+        <div class="track-card">
+          <i class="fa-solid fa-infinity"></i>
+          <h3>DevOps</h3>
+          <p>CI/CD, observability, and platform engineering.</p>
+        </div>
+      </div>
+    </section>
+
+      <!-- Venue part -->
+    <section class="venue" id="venue">
+      <h2 class="section-heading">Venue & Location</h2>
+      <div class="venue-wrapper">
+        <div class="venue-info">
+          <h3>Moscone West Convention Center</h3>
+          <p><i class="fa-solid fa-location-dot"></i> 800 Howard St, San Francisco, CA</p>
+          <p><i class="fa-solid fa-plane"></i> 20 minutes from SFO Airport</p>
+          <p><i class="fa-solid fa-hotel"></i> Partner hotels within walking distance</p>
+          <a href="#" class="btn btn-outline">Get Directions</a>
+        </div>
+        <div class="venue-map">
+          <img src="./assets/location-map.png" alt="Map showing the DevConf 2026 venue location" />
+        </div>
+      </div>
+    </section>
+
+
+        <!-- Register part -->
+    <section class="register" id="register">
+      <h2 class="section-heading">Register Now</h2>
+      <p class="section-subtitle">Reserve your seat before early-bird pricing ends.</p>
+      <form class="register-form" action="#" method="post">
+        <div class="form-row">
+          <input type="text" placeholder="Full Name" required />
+          <input type="email" placeholder="Email Address" required />
+        </div>
+        <div class="form-row">
+          <select required>
+            <option value="" disabled selected>Select Ticket Type</option>
+            <option value="standard">Standard — $399</option>
+            <option value="pro">Pro — $749</option>
+            <option value="team">Team — $5,999</option>
+          </select>
+          <input type="text" placeholder="Company (optional)" />
+        </div>
+        <button type="submit" class="btn">Complete Registration</button>
+      </form>
+    </section>
+
+
+    <!-- End of AI Done By Prompt-->
 
     <!--  Footer section  -->
     <footer class="footer">
